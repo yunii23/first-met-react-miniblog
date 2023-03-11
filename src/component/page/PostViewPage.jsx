@@ -12,7 +12,7 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content;
+    justify-content: center;
 `;
 
 const Container = styled.div`
@@ -32,18 +32,18 @@ const PostContainer = styled.div`
     border-radius: 8px;
 `;
 
-const TitleText = styled.div`
+const TitleText = styled.p`
     font-size: 28px;
     font-weight: 500;
 `;
 
-const ContentText = styled.div`
+const ContentText = styled.p`
     font-size: 20px;
     line-height: 32px
     white-space: pre-wrap;
 `;
 
-const CommentLabel = styled.div`
+const CommentLabel = styled.p`
     font-size: 16px;
     font-weight: 500;
 `;
