@@ -18,7 +18,8 @@ const Wrapper = styled.div`
 `;
 
 const ContentText = styled.p`
-    font-size: 14px;
+    font-size: 16px;
+    white-space: pre-wrap;
 `;
 
 function CommentListItem(props) {
